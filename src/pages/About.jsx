@@ -18,10 +18,10 @@ const About = () => {
       <p className="text-lg text-gray-400">
         Source Code:
         <a
-          className="text-black"
+          className="text-white rounded p-1"
           href="https://github.com/dhanushrao12/Github_Finder"
         >
-          &nbsp; Github
+          Github
         </a>
       </p>
     </div>
