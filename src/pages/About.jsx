@@ -18,7 +18,7 @@ const About = () => {
       <p className="text-lg text-gray-400">
         Source Code:
         <a
-          className="text-white rounded p-1"
+          className="text-black rounded p-1"
           href="https://github.com/dhanushrao12/Github_Finder"
         >
           Github
