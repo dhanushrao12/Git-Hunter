@@ -6,13 +6,12 @@ const About = () => {
       <h1 className="text-6xl mb-4 text-neutral">Github Finder</h1>
       <p className="mb-4 text-2xl font-light text-neutral">
         A React app to search GitHub profiles and see profile details. This
-        project is part of my learning.
+        project is part of my learning. You can also find the links to the
+        recent repos created by the user.
         <p>
-          This App can blah blah blah blah Lorem ipsum dolor sit amet,
-          consectetur adipisicing elit. Sed odit minus doloribus possimus
-          architecto ratione mollitia molestias deleniti et repellendus
-          veritatis adipisci, omnis quasi, distinctio eum perspiciatis. Numquam,
-          doloribus quos!
+          {" "}
+          This project has been built using ReactJs. It uses Tailwaind CSS and
+          Daisy UI for design aspect.
         </p>
       </p>
       <p className="text-lg text-neutral">
