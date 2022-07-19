@@ -5,7 +5,7 @@ const Alert = () => {
   const { alert } = useContext(AlertContext);
   return (
     alert !== null && (
-      <p className="flex items-start mb-4 space-x-2">
+      <div className="flex items-start mb-4 space-x-2">
         {alert.type === "error" && (
           <svg
             fill="none"
@@ -23,7 +23,7 @@ const Alert = () => {
         <p className="flex-1 text-base font-semibold text-rose-900">
           <strong className="">{alert.msg}</strong>
         </p>
-      </p>
+      </div>
     )
   );
 };

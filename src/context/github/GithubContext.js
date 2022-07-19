@@ -61,7 +61,7 @@ export const GithubProvider = ({ children }) => {
     setLoading();
     const params = new URLSearchParams({
       sort: "created",
-      per_page: 6,
+      per_page: 5,
     });
     const response = await fetch(
       `${GITHUB_URL}/users/${login}/repos?${params}`,
